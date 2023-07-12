@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    background-color: #00BFB3;
+   align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.subContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 30px;
+
+
+}
+.containerIconMenu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    
+}
+.containerMenuItem{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    padding: 20px 30px;
+
+}
